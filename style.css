@@ -78,6 +78,11 @@ img {
     font-weight: 700;
     padding: 1rem;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.buttons a:hover{
+    background-color: var(--grey-900);
+    transition: all .2s ease-in-out;
 }
 
 .attribution {
